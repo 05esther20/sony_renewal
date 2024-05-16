@@ -48,19 +48,64 @@
 <body>
     <!-- 공통컨텐츠 : header, footer, aside -->
         <header id="hd"> 
-            <div class="inner">
+            <div class="inner d-flex">
                 <h1 class="mainlogo"><a href="/"><img src="./img/sonyMainlogo.svg" alt=""></a></h1>
                 <!-- ul.gnb>li*5>a{대메뉴$} -->
-                <ul class="gnb">
-                    <li><a href="">스토어추천제품</a></li>
-                    <li><a href="">제품</a></li>
-                    <li><a href="">기획전</a></li>
-                    <li><a href="">멤버십</a></li>
-                    <li><a href="">고객서비스</a></li>
-                </ul>
+
+                <ul class="gnb ps-0 mb-0 mx-auto d-flex">
+                    <li class="px-5 position-relative d1">
+                        <a href="" class="gnb_d1_a">스토어추천제품</a>
+                        <ul class="position-absolute border p-4 bg-white">
+                            <li><a href="" class="gnb_d1_a ">추천제품</a></li>
+                            <li><a href="" class="gnb_d1_a ">선물제안</a></li>
+                            <li><a href="" class="gnb_d1_a ">교육할인</a></li>
+                        </ul>
+                    </li>
+                    <li class="px-5 position-relative d1">
+                            <a href="" class="gnb_d1_a">제품</a>
+                            <ul class="position-absolute border p-4 bg-white">
+                                <li><a href="" class="gnb_d1_a ">카메라</a></li>
+                                <li><a href="" class="gnb_d1_a ">비디오 카메라</a></li>
+                                <li><a href="" class="gnb_d1_a ">오디오</a></li>
+                                <li><a href="" class="gnb_d1_a ">액세서리</a></li>
+                                <li><a href="" class="gnb_d1_a ">Playstation®</a></li>
+                            </ul>
+                    </li>
+                    <li class="px-5 position-relative d1">
+                                <a href="" class="gnb_d1_a">기획전</a>
+                                <ul class="position-absolute border p-4 bg-white">
+                                    <li><a href="" class="gnb_d1_a ">소니스토어 단독</a></li>
+                                    <li><a href="" class="gnb_d1_a ">혜택존</a></li>
+                                    <li><a href="" class="gnb_d1_a ">예약판매</a></li>
+                                    <li><a href="" class="gnb_d1_a ">정품등록이벤트</a></li>
+                                    <li><a href="" class="gnb_d1_a ">LIVE ON</a></li>
+                                </ul>
+                            </li>
+                     
+                                <li class="px-5 position-relative d1">
+                                    <a href="" class="gnb_d1_a">멤버십</a>
+                                    <ul class="position-absolute border p-0 bg-white">
+                                        <li><a href="" class="gnb_d1_a">등급&혜택안내</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="px-5 position-relative d1 ">
+                                    <a href="" class="gnb_d1_a">고객서비스</a>
+                                    <ul class="position-absolute border p-4 bg-white">
+                                        <li><a href="" class="gnb_d1_a ">FAQ&공지사항</a></li>
+                                        <li><a href="" class="gnb_d1_a ">정품등록 안내</a></li>
+                                        <li><a href="" class="gnb_d1_a ">제품지원</a></li>
+                                        <li><a href="" class="gnb_d1_a ">구매 상담</a></li>
+                                        <li><a href="" class="gnb_d1_a ">직영점 안내</a></li>
+                                        <li><a href="" class="gnb_d1_a ">동영상 강좌</a></li>
+                                    </ul>
+                                </li>
+
+                    </ul>
+
                  
                 <!-- ul.iconMenu>li*3>i -->
-                <ul class="iconMenu">
+                <ul class="iconMenu d-flex">
                     <li><i><img src="./img/search.svg" alt=""></i><span class="sr_only">검색</span></li>
                     <li><i><img src="./img/person.svg" alt=""></i><span class="sr_only">장바구니</span></li>
                     <li><i><img src="./img/shoppingbag.svg" alt=""></i><span class="sr_only">마이페이지</span></li>

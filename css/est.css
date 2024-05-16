@@ -1,25 +1,53 @@
-#hd .inner {
+.inner {
   align-items: center;
   padding: 1rem 0;
   max-width: 1816px;
   margin: 0 auto;
   width: 100%;
-  display: flex;
   justify-content: space-between;
 }
-#hd .inner .mainlogo img {
+.inner .mainlogo img {
   width: 100px;
   height: auto;
 }
-#hd .inner ul {
-  display: flex;
+.inner ul {
   margin-top: 1rem;
 }
-#hd .inner ul.gnb li a {
+.inner ul.gnb a {
   font-size: 1rem;
   font-weight: bold;
-  margin-left: 3rem;
 }
-#hd .inner ul.iconMenu li i {
+.inner ul.gnb .d1:hover ul {
+  max-height: 180px !important;
+}
+.inner ul.gnb .d1 .gnb_d1_a {
+  color: black;
+  font-size: 1.2em;
+}
+.inner ul.gnb ul {
+  min-width: 80px;
+  white-space: nowrap;
+  max-height: 0px;
+  transition: max-height 0.5s;
+  padding: 0 1rem !important;
+  border: 0 !important;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+.inner ul.gnb ul li {
+  text-align: center;
+}
+.inner ul.gnb ul li a {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+}
+.inner ul.gnb ul li a:hover {
+  font-weight: 700 !important;
+}
+.inner ul.gnb ul.leftul {
+  left: -2rem;
+}
+.inner ul.iconMenu li i {
   margin-left: 1rem;
 }
